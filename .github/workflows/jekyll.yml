@@ -8,8 +8,9 @@ name: Deploy Jekyll site to Pages
 
 on:
   # Runs on pushes targeting the default branch
-  push:
-    branches: ["master"]
+  # 暂时禁用自动push打包
+  #push:
+    #branches: ["master"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
